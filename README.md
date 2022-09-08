@@ -2,7 +2,7 @@
 ***
  Improve Python skills by learning how to code 20 beginner Python projects.
 ## Table of Contents
-- [Python-Begginer-projects](#python-begginer-projects)
+- [React-HSFE-Wep-App](#react-hsfe-wep-app)
   - [Table of Contents](#table-of-contents)
     - [General Info](#general-info)
     - [Technologies](#technologies)
@@ -17,8 +17,8 @@
 ### Technologies
 ***
 A list of technologies used within the project:
-* [Python](https://www.python.org/): Version 3.10.5
-* [Visual Studio Code](https://code.visualstudio.com/): Version 1.69.2
+* [ReactJS](https://es.reactjs.org/): Version 18.2.0
+* [TypeScript](https://www.typescriptlang.org/): Version 4.8
 ### Installation
 ***
 ### Collaboration
