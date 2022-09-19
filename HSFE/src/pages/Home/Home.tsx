@@ -3,12 +3,14 @@ import { DataGrid, GridRenderCellParams } from "@mui/x-data-grid";
 import { People } from "@/data/people";
 import { Checkbox } from "@mui/material";
 import { Person } from "../../models/index";
+import { useDispatch } from "react-redux";
 
 export interface HomeInterface {}
 
 const Home: React.FC<HomeInterface> = () => {
   const [selectedPeople, setSelectedPeople] = useState<Person[]>([]);
   const pageSize = 5;
+  const dispatch = useDispatch();
 
   /**
    * "!!" transforma la resolucion de una exprecion en true/false
