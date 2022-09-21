@@ -4,11 +4,12 @@ import { favoritesSlice, peopleSlice } from "./states";
 
 export interface AppStore {
   people: Person[];
-  favorites: Person[]
+  favorites: Person[];
 }
 
 export default configureStore<AppStore>({
-    reducer: {
-        people: peopleSlice.reducer,
-        favorites: favoritesSlice.reducer,
+  reducer: {
+    people: peopleSlice.reducer,
+    favorites: favoritesSlice.reducer,
+  },
 });

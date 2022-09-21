@@ -4,6 +4,7 @@ specifiers:
   '@babel/core': ^7.19.0
   '@emotion/react': ^11.10.4
   '@emotion/styled': ^11.10.4
+  '@mui/icons-material': ^5.10.6
   '@mui/material': ^5.10.4
   '@mui/system': ^5.10.4
   '@mui/x-data-grid': ^5.17.1
@@ -19,6 +20,7 @@ specifiers:
   react-dom: ^18.2.0
   react-is: ^18.2.0
   react-redux: ^8.0.2
+  rxjs: ^7.5.6
   styled-components: ^5.3.5
   tailwindcss: ^3.1.8
   typescript: ^4.6.4
@@ -27,6 +29,7 @@ specifiers:
 dependencies:
   '@emotion/react': 11.10.4_p6fq7jdyqwnykllwwkx4b6uid4
   '@emotion/styled': 11.10.4_lxst47gwu5lqjtx2guwl7nfnjm
+  '@mui/icons-material': 5.10.6_dtruv572645qlhu5xokhjjhjka
   '@mui/material': 5.10.4_vbxcdxy3bftsefaguotlgalomu
   '@mui/system': 5.10.4_wpm2ckkcb3o6jfqp3h4kjrjece
   '@mui/x-data-grid': 5.17.1_7x3tnmrpyjhx3vi3ne7jspnmqu
@@ -35,6 +38,7 @@ dependencies:
   react-dom: 18.2.0_react@18.2.0
   react-is: 18.2.0
   react-redux: 8.0.2_yjtsim5uvgjttslbpqb5so5y3m
+  rxjs: 7.5.6
   styled-components: 5.3.5_7i5myeigehqah43i5u7wbekgba
 
 devDependencies:
@@ -522,6 +526,23 @@ packages:
 
   /@mui/core-downloads-tracker/5.10.4:
     resolution: {integrity: sha512-VGekVa9dleJ+ii47+gXvKUV5a11T0nsjXN8bk5NqiJRQWRCAhbTHgsfZuctNcMeLW9FSf2gu6U0k2U6rhABKcA==}
+    dev: false
+
+  /@mui/icons-material/5.10.6_dtruv572645qlhu5xokhjjhjka:
+    resolution: {integrity: sha512-QwxdRmLA46S94B0hExPDx0td+A2unF+33bQ6Cs+lNpJKVsm1YeHwNdYXYcnpWeHeQQ07055OXl7IB2GKDd0MfA==}
+    engines: {node: '>=12.0.0'}
+    peerDependencies:
+      '@mui/material': ^5.0.0
+      '@types/react': ^17.0.0 || ^18.0.0
+      react: ^17.0.0 || ^18.0.0
+    peerDependenciesMeta:
+      '@types/react':
+        optional: true
+    dependencies:
+      '@babel/runtime': 7.19.0
+      '@mui/material': 5.10.4_vbxcdxy3bftsefaguotlgalomu
+      '@types/react': 18.0.18
+      react: 18.2.0
     dev: false
 
   /@mui/material/5.10.4_vbxcdxy3bftsefaguotlgalomu:
@@ -1757,6 +1778,12 @@ packages:
       queue-microtask: 1.2.3
     dev: true
 
+  /rxjs/7.5.6:
+    resolution: {integrity: sha512-dnyv2/YsXhnm461G+R/Pe5bWP41Nm6LBXEYWI6eiFP4fiwx6WRI/CD0zbdVAudd9xwLEF2IDcKXLHit0FYjUzw==}
+    dependencies:
+      tslib: 2.4.0
+    dev: false
+
   /safe-buffer/5.1.2:
     resolution: {integrity: sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==}
 
@@ -1869,6 +1896,10 @@ packages:
     dependencies:
       is-number: 7.0.0
     dev: true
+
+  /tslib/2.4.0:
+    resolution: {integrity: sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==}
+    dev: false
 
   /typescript/4.8.2:
     resolution: {integrity: sha512-C0I1UsrrDHo2fYI5oaCGbSejwX4ch+9Y5jTQELvovfmFkK3HHSZJB8MSJcWLmCUBzQBchCrZ9rMRV6GuNrvGtw==}
